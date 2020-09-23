@@ -1,0 +1,14 @@
+VARIÁVEIS podem ser definidas simplesmente por um operador "var".
+Dentre os tipos existentes: String, bool, int, double, float, void.
+
+Os símbolos de operações e atribuições são basicamente os mesmos de qualquer linguagem:
+=; +; -: *; /; %; ==; !=; ();
+Para pegar o input do usuário, utiliza-se a lib 'dart:io'
+String ==> stdin.readLineSync()
+
+Para concatenar variáveis dentro de mensagens utiliza-se o "$" Ex: print("Contando $contador");
+
+A estrutura de IF e ELSE funciona da mesma forma que as demais linguagens também.
+As ESTRUTURAS DE REPETIÇÃO for e while funcionam normalmente como em outras linguagens.
+
+Funções e Arrays tem um funcionamento praticamente igual ao do Javascript.

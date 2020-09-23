@@ -1,0 +1,34 @@
+Para proteger uma variável a tornando privada e acessível apenas dentro de uma determinada classe:
+
+Em outras linguagens é utilizado o "private".
+No DART, coloca-se um "_" antes do nome da variável.
+
+Também podemos utilizar o "final" para variáveis que são acessíveis, mas não podem ser alteradas.
+
+Pessoa{
+  ...
+  final String cpf = '47274498894';
+}
+
+main() {
+  ...
+  pessoa.cpf = '...' <== Resulta em um erro.
+}
+
+HERANÇA
+A herança se dá pela palavra "extends", para se referir ao construtor da classe pai, utiliza-se ": super".
+
+class Animal {                <== Uma classe animal com um construtor que recebe som.
+  String som;
+
+  Animal({this.som});
+}
+
+
+import 'animal.dart';
+
+class Gato extends Animal {   <== Uma class gato que extende a classe animal e o seu construtor recebe os parametros, e chama o super.        
+  String nome;
+
+  Gato({this.nome, som}) : super(som: som);
+}

@@ -1,0 +1,30 @@
+ORIENTAÇÂO A OBJETOS é um paradigma de programação, assim como a programação LINEAR e MODULAR.
+
+class Pessoa {
+  String nome = 'Gian Ferreira';
+  int idade = 23;
+}
+
+void main(List<String> arguments) {   <== O "new" ao instanciar uma classe pode ser opcional.
+  Pessoa pessoa = new Pessoa();
+
+  print('${pessoa.nome}, ${pessoa.idade}');
+}
+
+CONSTRUTORES:
+Construtor simples:
+  Pessoa(String nome, int idade) {
+    this.nome = nome;
+    this.idade = idade;
+  }
+
+Construtor tipado:
+  Pessoa({String nome, int idade}) {  <== Utilização das chaves em volta das variáveis.
+    this.nome = nome;
+    this.idade = idade;
+  }
+
+  Pessoa pessoa = new Pessoa(nome: 'Gian', idade: 23)
+
+Ou ainda:
+  Pessoa({this.nome, this.idade, this.sexo});

@@ -1,0 +1,19 @@
+MAPS são semelhantes as STRUCTS de linguagens mais clássicas e praticamente igual ao JSON.
+
+  var maps = {
+    "nome": "Gian Ferreira",
+    "idade": 23,
+    "cidade": "Adamantina",
+    "estado": "SP",
+  };
+
+  print(maps);
+
+  $dart maps.dart
+  ${nome: Gian Ferreira, idade: 23, cidade: Adamantina, estado: SP}
+
+  Funciona com o tipo chave: valor, esses tipos podem ser tipados:
+  Map<String, String> = maps { ... };
+  Map<String, dynamic> = maps { ... };
+
+  Também é permitido criar um map vazio.   Map<String, dynamic> = maps { };

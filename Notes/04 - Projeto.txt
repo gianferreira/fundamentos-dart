@@ -1,0 +1,15 @@
+Para criar um novo projeto DART é necessária a extensão do dart no VS Code.
+
+E na paleta de comandos (Ctrl + Shift + P) > Dart: New Project.
+Provavelmente será apresentada mensagem de autorização e/ou download, update do stagehand.
+
+Selecionar o projeto desejado, Console App, AppWeb, etc.
+
+São gerados as pastas test, lib, bin. 
+
+O main agora conta com uma lista de argumentos.
+void main(List<String> arguments) { ... } 
+
+$ dart main.dart "argumento"
+
+É possível importar outros arquivos, e selecionar de acordo com o argumento, tornando um programa com várias funções de forma MODULAR.

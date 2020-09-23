@@ -1,0 +1,21 @@
+ALGORITMO e uma sequência de passos para realizar uma determinada tarefa.
+
+=> Um algoritmo funcionar NÂO QUER DIZER que ele esteja certo.
+
+Um algoritmo computacional é consituído de:
+ENTRADA -> PROCESSAMENTO -> SAÍDA
+
+O computador entende várias linguagens pois ele tem vários intérpretes que no fim das contas transformam tudo em 0 e 1.
+
+Dart
+
+hello.dart
+main() {
+  print("Hello World!");
+}
+
+$ dart hello.dart
+
+
+SINTAXE   - A forma de se escrever.
+SEMÂNTICA - O que significa o que está escrito.

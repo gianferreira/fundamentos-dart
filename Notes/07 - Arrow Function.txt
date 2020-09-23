@@ -1,0 +1,10 @@
+O DART também implementa as ARROW FUNCTIONS.
+
+Quando uma função já retorna diretamente um valor, não precisamos utilizar as chaves e o return.
+Ex:
+  double imc() {
+    return peso / (altura * altura);
+  }
+
+  Em ARROW FUNCION ficaria:
+  double imc() => peso / (altura * altura);
